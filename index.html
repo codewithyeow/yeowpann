@@ -1,928 +1,1001 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pan Sreyoun</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pan Sreyoun</title>
-
-  <!--
+    <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon" />
 
-  <!--
+    <!--
     - custom css link
   -->
-  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 
-  <!--
+    <!--
     - google font link
   -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4YMH5X94J0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    window.dataLayer.push(arguments);
-  }
-  gtag('js', new Date());
-  gtag('config', 'G-4YMH5X94J0');
-</script>
-</head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-4YMH5X94J0"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-4YMH5X94J0");
+    </script>
+  </head>
 
-<body>
-
-  <!--
+  <body>
+    <!--
     - #MAIN
   -->
 
-  <main>
-
-    <!--
+    <main>
+      <!--
       - #SIDEBAR
     -->
 
-    <aside class="sidebar" data-sidebar>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img src="images/my-avatar.jpg" alt="maitri" width="80" />
+          </figure>
 
-      <div class="sidebar-info">
+          <div class="info-content">
+            <h1 class="name" title="Maitri Vaghasiya">Pan Sreyoun</h1>
 
-        <figure class="avatar-box">
-          <img src="images/my-avatar.jpg" alt="maitri" width="80">
-        </figure>
+            <p class="title">Software Development Student</p>
+          </div>
 
-        <div class="info-content">
-          <h1 class="name" title="Maitri Vaghasiya">Pan Sreyoun</h1>
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
 
-          <p class="title">Software Development Student</p>
-         
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
 
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
 
-      </div>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
 
-      <div class="sidebar-info_more">
+                <a href="pannsreyoun5@gmail.com" class="contact-link"
+                  >pannsreyoun5@gmail.com</a
+                >
+              </div>
+            </li>
 
-        <div class="separator"></div>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="School"></ion-icon>
+              </div>
 
-        <ul class="contacts-list">
+              <div class="contact-info">
+                <p class="contact-title">College</p>
 
-          <li class="contact-item">
+                <time datetime="">IT ACADEMY STEP INSTITUTE</time>
+              </div>
+            </li>
 
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
 
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
 
-              <a href="pannsreyoun5@gmail.com" class="contact-link">pannsreyoun5@gmail.com</a>
-            </div>
+                <address>Phnom Penh, CAMBODIA</address>
+              </div>
+            </li>
 
-          </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="call-outline"></ion-icon>
+                <!-- Use "call-outline" for a phone icon -->
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Phone Number</p>
+                <a href="tel:087810330" class="contact-link"
+                  >Tel : 087 810 330</a
+                >
+              </div>
+            </li>
+          </ul>
 
-          <li class="contact-item">
+          <div class="separator"></div>
 
-            <div class="icon-box">
-              <ion-icon name="School"></ion-icon>
-            </div>
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://github.com/sreyounpann" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
 
-            <div class="contact-info">
-              <p class="contact-title">College</p>
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/yeow-pann-57ab011aa/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://www.facebook.com/yeow.yeow.161/"
+                class="social-link"
+              >
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
 
-              <time datetime="">IT ACADEMY STEP INSTITUTE</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Phnom Penh, CAMBODIA</address>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-            <div class="icon-box">
-              <ion-icon name="call-outline"></ion-icon> <!-- Use "call-outline" for a phone icon -->
-            </div>
-            <div class="contact-info">
-              <p class="contact-title">Phone Number</p>
-              <a href="tel:087810330" class="contact-link">Tel : 087 810 330</a>
-            </div>
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://github.com/sreyounpann" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/yeow-pann-57ab011aa/" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-          <li class="social-item">
-            <a href="https://www.facebook.com/yeow.yeow.161/" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-    <!--
+      <!--
       - #main-content
     -->
 
-    <div class="main-content">
-
-      <!--
+      <div class="main-content">
+        <!--
         - #NAVBAR
       -->
 
-      <nav class="navbar">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
 
-        <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-      <!--
+        <!--
         - #ABOUT
       -->
 
-      <article class="about  active" data-page="about">
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
+          <section class="about-text">
+            <p>
+              <strong>Welcome!</strong> I'm Pan Sreyoun, a passionate learner
+              immersed in software development. My academic journey covers C++,
+              Object-Oriented Programming, .NET, and C#. In Term 4, I shifted
+              focus to web development, mastering HTML5, CSS3, JavaScript,
+              jQuery, ASP.NET, AJAX, Angular, and React , VueJS and Laravel PHP.
+              Seeking a web development internship to apply my skills in a
+              real-world setting, contribute to projects, and collaborate with
+              professionals. Excited about making a meaningful contribution to a
+              dynamic team. Thank you for considering my dedication to web
+              development.
+            </p>
+          </section>
 
-        <section class="about-text">
-          <p>
-              <strong>Welcome!</strong> I'm Pan Sreyoun, a passionate learner immersed in software development. My academic journey covers C++, Object-Oriented Programming, .NET, and C#. In Term 4, I shifted focus to web development, mastering HTML5, CSS3, JavaScript, jQuery, ASP.NET, AJAX, Angular, and React , VueJS and Laravel PHP. Seeking a web development internship to apply my skills in a real-world setting, contribute to projects, and collaborate with professionals. Excited about making a meaningful contribution to a dynamic team. Thank you for considering my dedication to web development.
-          </p>
-      </section>
-      
-
-
-        <!--
+          <!--
           - service
         -->
 
-        <section class="service">
-          <h3 class="h3 service-title">What I'm Doing</h3>
-          <ul class="service-list">
+          <section class="service">
+            <h3 class="h3 service-title">What I'm Doing</h3>
+            <ul class="service-list">
               <li class="service-item">
-                  <div class="service-icon-box">
-                      <img src="images/icon-dev.svg" alt="Web development icon" width="40">
-                  </div>
-                  <div class="service-content-box">
-                      <h4 class="h4 service-item-title">Web Development</h4>
-                      <p class="service-item-text">
-                          Actively building websites using HTML5, CSS (Bootstrap), and JavaScript. Currently expanding my skills in ASP.NET and learning React (Angular) to enhance web application development.
-                      </p>
-                  </div>
-              </li>
-              <li class="service-item">
-                  <div class="service-icon-box">
-                      <img src="images/icon-design.svg" alt="Design icon" width="40">
-                  </div>
-                  <div class="service-content-box">
-                      <h4 class="h4 service-item-title">Web Design</h4>
-                      <p class="service-item-text">
-                          Passionate about crafting visually appealing and user-friendly website layouts. I focus on creating seamless user experiences through thoughtful design elements and robust software architectures. Constantly exploring innovative design concepts to enhance the overall aesthetic and functionality of web applications.
-                      </p>
-                  </div>
-              </li>
-              <li class="service-item">
-                  <div class="service-icon-box">
-                      <img src="images/icon-desktop.svg" alt="Desktop development icon" width="40">
-                  </div>
-                  <div class="service-content-box">
-                    <h4 class="h4 service-item-title">Desktop Development</h4>
-                    <p class="service-item-text">
-                        Proficient in developing desktop applications with a focus on creating efficient and user-friendly software. Utilizing languages such as C++, .NET, WPF, and WinForms, I aim to build robust applications that meet the needs of users in desktop environments.
-                    </p>
+                <div class="service-icon-box">
+                  <img
+                    src="images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
                 </div>
-                
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web Development</h4>
+                  <p class="service-item-text">
+                    Actively building websites using HTML5, CSS (Bootstrap), and
+                    JavaScript. Currently expanding my skills in ASP.NET and
+                    learning React (Angular) to enhance web application
+                    development.
+                  </p>
+                </div>
               </li>
-          </ul>
-      </section>
-      
-        <!--
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="images/icon-design.svg"
+                    alt="Design icon"
+                    width="40"
+                  />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web Design</h4>
+                  <p class="service-item-text">
+                    Passionate about crafting visually appealing and
+                    user-friendly website layouts. I focus on creating seamless
+                    user experiences through thoughtful design elements and
+                    robust software architectures. Constantly exploring
+                    innovative design concepts to enhance the overall aesthetic
+                    and functionality of web applications.
+                  </p>
+                </div>
+              </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="images/icon-desktop.svg"
+                    alt="Desktop development icon"
+                    width="40"
+                  />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Desktop Development</h4>
+                  <p class="service-item-text">
+                    Proficient in developing desktop applications with a focus
+                    on creating efficient and user-friendly software. Utilizing
+                    languages such as C++, .NET, WPF, and WinForms, I aim to
+                    build robust applications that meet the needs of users in
+                    desktop environments.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
           - testimonials
         -->
 
-        <section class="testimonials">
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Achievement</h3>
 
-          <h3 class="h3 testimonials-title">Achievement</h3>
-      
-          <ul class="testimonials-list has-scrollbar">
-      
+            <ul class="testimonials-list has-scrollbar">
               <li class="testimonials-item">
-                  <div class="content-card" data-testimonials-item>
-                      <figure class="testimonials-avatar-box">
-                          <img src="images/volunteer_work.PNG" alt="RBL" width="60" data-testimonials-avatar>
-                      </figure>
-      
-                      <h4 class="h4 testimonials-item-title" data-testimonials-title>Former Volunteer work</h4>
-      
-                      <div class="testimonials-text" data-testimonials-text>
-                          <p>
-                              Volunteer for youth speak forum 2019 event.
-                              Training about leadership and public speaking.
-                              Help organize the event and take care of the guest.
-                          </p>
-                      </div>
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="images/volunteer_work.PNG"
+                      alt="RBL"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Former Volunteer work
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Volunteer for youth speak forum 2019 event. Training about
+                      leadership and public speaking. Help organize the event
+                      and take care of the guest.
+                    </p>
                   </div>
+                </div>
               </li>
-      
+
               <li class="testimonials-item">
-                  <div class="content-card" data-testimonials-item>
-                      <figure class="testimonials-avatar-box">
-                          <img src="images/ciscoCerti.PNG" alt="RBL" width="60" data-testimonials-avatar>
-                      </figure>
-      
-                      <h4 class="h4 testimonials-item-title" data-testimonials-title>Cisco Certificate</h4>
-      
-                      <div class="testimonials-text" data-testimonials-text>
-                          <p>
-                              Complete IT Essentials: PC Hardware and Software (Cisco) at IT Academy Step Institute.
-                          </p>
-                      </div>
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="images/ciscoCerti.PNG"
+                      alt="RBL"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Cisco Certificate
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Complete IT Essentials: PC Hardware and Software (Cisco)
+                      at IT Academy Step Institute.
+                    </p>
                   </div>
+                </div>
               </li>
-      
+
               <!-- Add new achievement here -->
               <li class="testimonials-item">
-                  <div class="content-card" data-testimonials-item>
-                      <figure class="testimonials-avatar-box">
-                          <!-- Use an appropriate image for your commendation letter -->
-                          <img src="images/recommendation.png" alt="Commendation Letter" width="60" data-testimonials-avatar>
-                      </figure>
-      
-                      <h4 class="h4 testimonials-item-title" style="margin-left: 80px;" data-testimonials-title>Commendation Letter</h4>
-      
-                      <div class="testimonials-text" data-testimonials-text style="margin-left: 80px;">
-                          <p>
-                              Received commendation letter from Ms. Nataly, the school director, for outstanding performance and dedication.
-                          </p>
-                      </div>
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <!-- Use an appropriate image for your commendation letter -->
+                    <img
+                      src="images/recommendation.png"
+                      alt="Commendation Letter"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    style="margin-left: 80px"
+                    data-testimonials-title
+                  >
+                    Commendation Letter
+                  </h4>
+
+                  <div
+                    class="testimonials-text"
+                    data-testimonials-text
+                    style="margin-left: 80px"
+                  >
+                    <p>
+                      Received commendation letter from Ms. Nataly, the school
+                      director, for outstanding performance and dedication.
+                    </p>
                   </div>
+                </div>
               </li>
-      
-          </ul>
-      
-      </section>
-      
-      
+            </ul>
+          </section>
 
-
-        <!--
+          <!--
           - testimonials modal
         -->
 
-        <div class="modal-container" data-modal-container>
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
 
-          <div class="overlay" data-overlay></div>
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
 
-          <section class="testimonials-modal">
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
 
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-              <div data-modal-text>
-                <p>
-                
-                </p>
+                <img src="images/icon-quote.svg" alt="quote icon" />
               </div>
 
-            </div>
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+                <div data-modal-text>
+                  <p></p>
+                </div>
+              </div>
+            </section>
+          </div>
 
-          </section>
-
-        </div>
-
-
-        <!--
+          <!--
           - clients
         -->
 
-        <section class="clients">
+          <section class="clients">
+            <h3 class="h3 clients-title">Tools and Technologies</h3>
 
-          <h3 class="h3 clients-title">Tools and Technologies</h3>
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="#">
+                  <img src="images/Csharp.svg" alt="client logo" />
+                </a>
+              </li>
 
-          <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="#">
+                  <img src="images/html.png" alt="client logo" />
+                </a>
+              </li>
 
-            <li class="clients-item">
-              <a href="#">
-                <img src="images/Csharp.svg" alt="client logo">
-              </a>
-            </li>
+              <li class="clients-item">
+                <a href="#">
+                  <img src="images/css.png" alt="client logo" />
+                </a>
+              </li>
 
-            <li class="clients-item">
-              <a href="#">
-                <img src="images/html.png" alt="client logo">
-              </a>
-            </li>
+              <li class="clients-item">
+                <a href="#">
+                  <img src="images/js.svg" alt="client logo" />
+                </a>
+              </li>
 
-            <li class="clients-item">
-              <a href="#">
-                <img src="images/css.png" alt="client logo">
-              </a>
-            </li>
+              <li class="clients-item">
+                <a href="#">
+                  <img src="images/Bootstrap.png" alt="client logo" />
+                </a>
+              </li>
 
-            <li class="clients-item">
-              <a href="#">
-                <img src="images/js.svg" alt="client logo">
-              </a>
-            </li>
+              <li class="clients-item">
+                <a href="#">
+                  <img src="images/Angular.png" alt="client logo" />
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
 
-            <li class="clients-item">
-              <a href="#">
-                <img src="images/Bootstrap.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="images/Angular.png" alt="client logo">
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
+        <!--
         - #RESUME
       -->
 
-      <article class="resume" data-page="resume">
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
 
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <h3 class="h3">Education</h3>
             </div>
 
-            <h3 class="h3">Education</h3>
-          </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  IT STEP ACADEMY INSTITUTE
+                </h4>
 
-          <ol class="timeline-list">
+                <span>2022 — Present</span>
 
-            <li class="timeline-item">
+                <p class="timeline-text">
+                  Software Development (International Diploma)
+                </p>
+              </li>
 
-              <h4 class="h4 timeline-item-title">IT STEP ACADEMY INSTITUTE</h4>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">DON BOSCO HIGHS SCHOOL</h4>
 
-              <span>2022 — Present</span>
+                <span>2018 — 2020</span>
 
-              <p class="timeline-text">
-                Software Development (International Diploma)              </p>
+                <p class="timeline-text">Diploma Degree</p>
+              </li>
 
-            </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">UNIVERISTY OF CAMBODIA</h4>
 
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">DON BOSCO HIGHS SCHOOL</h4>
+                <span>2019 (Completed)</span>
 
-              <span>2018 — 2020</span>
+                <p class="timeline-text">ESL (English as a Second Language)</p>
+              </li>
+            </ol>
+          </section>
 
-              <p class="timeline-text">
-                Diploma Degree
-              </p>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
 
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">UNIVERISTY OF CAMBODIA</h4>
-
-              <span>2019 (Completed)</span>
-
-              <p class="timeline-text">
-                ESL (English as a Second Language)
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <h3 class="h3">Experience</h3>
             </div>
 
-            <h3 class="h3">Experience</h3>
-          </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Customer Support (Part-Time)
+                  <p class="timeline-text">IT Academy Step Institute</p>
+                </h4>
+                <span>Sep 2022 - Feb 2024</span>
+                <p class="timeline-text">
+                  Contributed to company growth by providing exceptional
+                  customer support for 1 year and 6 months. Demonstrated
+                  technical expertise in assisting users, crafting impactful
+                  content for the website, and integrating new technology into
+                  diplomatic affairs. Also served as a part-time teacher
+                  assistant, ensuring a smooth educational experience for young
+                  learners.
+                </p>
+              </li>
 
-          <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Graphics Designer and Marketing
+                  <p class="timeline-text">AXE Cambodia</p>
+                </h4>
 
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Customer Support (Part-Time)<p class="timeline-text">IT Academy Step Institute</p></h4>
-              <span>Sep 2022 - Feb 2024</span>
-              <p class="timeline-text">
-                  Contributed to company growth by providing exceptional customer support for 1 year and 6 months. Demonstrated technical expertise in assisting users, crafting impactful content for the website, and integrating new technology into diplomatic affairs. Also served as a part-time teacher assistant, ensuring a smooth educational experience for young learners.
-              </p>
-          </li>
-          
-          
-          
+                <span>Sep 2021 - Feb 2022</span>
 
-            <li class="timeline-item">
+                <p class="timeline-text">
+                  Managing Contents on social media and designing graphics for
+                  the company.
+                </p>
+              </li>
 
-              <h4 class="h4 timeline-item-title"> Graphics Designer and Marketing<p class="timeline-text">AXE Cambodia</p></h4>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Internship Full Stack Developer
+                  <p class="timeline-text">Chhouth Yerng</p>
+                </h4>
 
-              <span>Sep 2021 - Feb 2022</span>
+                <span>Jan 2024 - Present</span>
 
-              <p class="timeline-text">
-               Managing Contents on social media and designing graphics for the company.
-              </p>
+                <p class="timeline-text">
+                  Currently, working as an internship full stack developer at
+                  Chnout Yerng (ឆ្នោតយេីង) company based in Phnom Penh (penh
+                  Hourt 60M) Skills: React.js · Tailwind CSS · Nuxt.js ·
+                  Firebase · Realtime database · Supabase · Laravel · PHP ·
+                  Docker · PhpMyAdmin · Vue.js
+                </p>
+              </li>
+            </ol>
+          </section>
 
-            </li>
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
 
-            <li class="timeline-item">
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">C#</h5>
+                  <data value="80">80%</data>
+                </div>
 
-              <h4 class="h4 timeline-item-title"> Internship Full Stack Developer<p class="timeline-text">Chhouth Yerng</p></h4>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
 
-              <span>Jan 2024 - Present</span>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Boostrap</h5>
+                  <data value="80">80%</data>
+                </div>
 
-              <p class="timeline-text">
-                Currently, working as an internship full stack developer at Chnout Yerng (ឆ្នោតយេីង) company based in Phnom Penh (penh Hourt 60M) 
-                Skills: React.js · Tailwind CSS · Nuxt.js · Firebase · Realtime database · Supabase · Laravel · PHP · Docker · PhpMyAdmin · Vue.js
-              </p>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
 
-            </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">HTML, CSS, Javascript</h5>
+                  <data value="90">90%</data>
+                </div>
 
-          </ol>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">C/C++</h5>
+                  <data value="60">60%</data>
+                </div>
 
-        </section>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%"></div>
+                </div>
+              </li>
 
-        <section class="skill">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">.Net / ASP .Net</h5>
+                  <data value="60">60%</data>
+                </div>
 
-          <h3 class="h3 skills-title">My skills</h3>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%"></div>
+                </div>
+              </li>
 
-          <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Angular</h5>
+                  <data value="50">50%</data>
+                </div>
 
-            <li class="skills-item">
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 50%"></div>
+                </div>
+              </li>
 
-              <div class="title-wrapper">
-                <h5 class="h5">C#</h5>
-                <data value="80">80%</data>
-              </div>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">React</h5>
+                  <data value="50">50%</data>
+                </div>
 
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 50%"></div>
+                </div>
+              </li>
 
-            </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Laravel / PhP</h5>
+                  <data value="50">70%</data>
+                </div>
 
-            <li class="skills-item">
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
 
-              <div class="title-wrapper">
-                <h5 class="h5">Boostrap</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-           
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">HTML, CSS, Javascript</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">C/C++</h5>
-                <data value="60">60%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 60%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">.Net / ASP .Net</h5>
-                <data value="60">60%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 60%;"></div>
-              </div>
-
-            </li>
-
-            
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Angular</h5>
-                <data value="50">50%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-
-            </li>
-
-               
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">React</h5>
-                <data value="50">50%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Laravel / PhP</h5>
-                <data value="50">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
+        <!--
         - #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="portfolio">
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Projects</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
               </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>DeskTop</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
             </ul>
 
-          </div>
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
 
-          <ul class="project-list">
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://main--comfy-rugelach-04af5c.netlify.app/" target="_blank">
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
 
-                  <img src="images/Project-1.png" alt="finance" loading="lazy">
-                </figure>
+                <li class="select-item">
+                  <button data-select-item>DeskTop</button>
+                </li>
 
-                <h3 class="project-title">Librarian Website</h3>
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div>
 
-                <p class="project-category">Web development</p>
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://main--comfy-rugelach-04af5c.netlify.app/"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-              </a>
-            </li>
+                    <img
+                      src="images/project-1.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="https://655c8976334f0c6c55484d7d--elaborate-syrniki-f00b50.netlify.app/" target="_blank">
+                  <h3 class="project-title">Librarian Website</h3>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
 
-                  <img src="images/Project-2.png" alt="orizon" loading="lazy">
-                </figure>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a
+                  href="https://655c8976334f0c6c55484d7d--elaborate-syrniki-f00b50.netlify.app/"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                <h3 class="project-title">SunFlower</h3>
+                    <img
+                      src="images/project-2.png"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                <p class="project-category">Web design</p>
+                  <h3 class="project-title">SunFlower</h3>
 
-              </a>
-            </li>
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="https://655c8c48ce013d6d3f9649e7--aesthetic-lamington-7c4b99.netlify.app/" target="_blank">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a
+                  href="https://655c8c48ce013d6d3f9649e7--aesthetic-lamington-7c4b99.netlify.app/"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                    <img
+                      src="images/project-3.png"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                  <img src="images/Project-3.png" alt="fundo" loading="lazy">
-                </figure>
+                  <h3 class="project-title">Dashboard</h3>
 
-                <h3 class="project-title">Dashboard</h3>
+                  <p class="project-category">Web Design</p>
+                </a>
+              </li>
 
-                <p class="project-category">Web Design</p>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="desktop"
+              >
+                <a
+                  href="https://github.com/sreyounpann/ChatApplication"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-              </a>
-            </li>
+                    <img
+                      src="images/project-4.png"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">Chat Application</h3>
 
-            <li class="project-item  active" data-filter-item data-category="desktop">
-              <a href="https://github.com/sreyounpann/ChatApplication" target="_blank">
+                  <p class="project-category">Desktop Applications</p>
+                </a>
+              </li>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://github.com/sreyounpann/Step-Library"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                  <img src="images/Project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-                <h3 class="project-title">Chat Application</h3>
+                    <img
+                      src="images/project-5.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                <p class="project-category">Desktop Applications</p>
+                  <h3 class="project-title">Step Library Website</h3>
 
-              </a>
-            </li>
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://github.com/sreyounpann/Step-Library" target="_blank">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://react-todolist-woad.vercel.app/"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                    <img
+                      src="images/Project-6.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                  <img src="images/Project-5.png" alt="finance" loading="lazy">
-                </figure>
+                  <h3 class="project-title">Do Tolist App</h3>
 
-                <h3 class="project-title">Step Library Website</h3>
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
 
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://react-todolist-woad.vercel.app/" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="images/Project-6.png" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Do Tolist App</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-            
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-      <!--
+        <!--
         - #CONTACT
       -->
 
-      <article class="contact" data-page="contact">
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1954.459489626231!2d104.86736520722744!3d11.557665863319455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951b855275f1d%3A0xffc48d19cb5b3c89!2sGlobal%20Student%20Centre!5e0!3m2!1sen!2skh!4v1700565308073!5m2!1sen!2skh"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              >
+              </iframe>
+            </figure>
+          </section>
 
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1954.459489626231!2d104.86736520722744!3d11.557665863319455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951b855275f1d%3A0xffc48d19cb5b3c89!2sGlobal%20Student%20Centre!5e0!3m2!1sen!2skh!4v1700565308073!5m2!1sen!2skh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-          </figure>
-        </section>
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+            <form
+              action="#"
+              class="form"
+              data-form
+              onsubmit="sendEmail(); return false;"
+            >
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  autocomplete="off"
+                  data-form-input
+                />
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  autocomplete="off"
+                  data-form-input
+                />
+              </div>
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                autocomplete="off"
+                data-form-input
+              ></textarea>
+              <button class="form-btn" type="submit" data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
 
-        <section class="contact-form">
-          <h3 class="h3 form-title">Contact Form</h3>
-          <form action="#" class="form" data-form onsubmit="sendEmail(); return false;">
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" autocomplete="off" data-form-input>
-              <input type="email" name="email" class="form-input" placeholder="Email address" autocomplete="off" data-form-input>
-            </div>
-            <textarea name="message" class="form-input" placeholder="Your Message" autocomplete="off" data-form-input></textarea>
-            <button class="form-btn" type="submit" data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-          </form>
-        </section>
-        
-        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-        <script>
-          emailjs.init("KSfyPCJrPYq0R7YyW");
-        
-          function sendEmail() {
-            var fullName = document.querySelector('[name="fullname"]').value;
-            var email = document.querySelector('[name="email"]').value;
-            var message = document.querySelector('[name="message"]').value;
-        
-            emailjs.send("service_3c2mok5", "template_e0nbf6h", {
-              to_name: "Sreyoun Pann",
-              from_name: fullName,
-              from_email: email,
-              message_html: message
-            }).then(
-              function (response) {
-                Swal.fire({
-                  title: 'Success!',
-                  text: 'Your message has been sent successfully.',
-                  icon: 'success',
-                  confirmButtonText: 'OK'
-                }).then(function () {
-                  resetForm();
-                });
-              },
-              function (error) {
-                Swal.fire({
-                  title: 'Error!',
-                  text: 'Something went wrong. Please try again later.',
-                  icon: 'error',
-                  confirmButtonText: 'OK'
-                });
-              }
-            );
-        
-            return false;
-          }
-        
-          function resetForm() {
-            document.querySelector('.form').reset();
-          }
-        </script>
-        
-        
-      </article>
+          <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+          <script>
+            emailjs.init("KSfyPCJrPYq0R7YyW");
 
-    </div>
+            function sendEmail() {
+              var fullName = document.querySelector('[name="fullname"]').value;
+              var email = document.querySelector('[name="email"]').value;
+              var message = document.querySelector('[name="message"]').value;
 
-  </main>
+              emailjs
+                .send("service_3c2mok5", "template_e0nbf6h", {
+                  to_name: "Sreyoun Pann",
+                  from_name: fullName,
+                  from_email: email,
+                  message_html: message,
+                })
+                .then(
+                  function (response) {
+                    Swal.fire({
+                      title: "Success!",
+                      text: "Your message has been sent successfully.",
+                      icon: "success",
+                      confirmButtonText: "OK",
+                    }).then(function () {
+                      resetForm();
+                    });
+                  },
+                  function (error) {
+                    Swal.fire({
+                      title: "Error!",
+                      text: "Something went wrong. Please try again later.",
+                      icon: "error",
+                      confirmButtonText: "OK",
+                    });
+                  }
+                );
 
-  <!--
+              return false;
+            }
+
+            function resetForm() {
+              document.querySelector(".form").reset();
+            }
+          </script>
+        </article>
+      </div>
+    </main>
+
+    <!--
     - custom js link
   -->
-  <script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 
-  <!--
+    <!--
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-  
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
